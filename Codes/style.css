@@ -1,0 +1,559 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    outline: none;
+}
+.heroContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(138, 0, 192);
+    background-image: url("/Assets/purple-abstract-cube-3d-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.navBar{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+}
+.logoHolder{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+}
+.buttonHolder{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.navButton {
+    height: 50%;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(238, 236, 236, 0.452);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    color: purple;
+}
+.Active{
+    background-color: purple;
+    color: white;
+}
+.navButton:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+.latestDesignButtonHolder{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.latestDesignButtonHolder button{
+    height: 50%;
+    width: 70%;
+    background-color: transparent;
+    border: 2px solid purple;
+    border-radius: 12px;
+    color: purple;
+}
+.latestDesignButtonHolder button:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+.contaner{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 0, 128, 0.37);
+    display: flex;
+    flex-direction: row;
+}
+.mainContent{
+    height: 100%;
+    width: 50%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.bigText{
+    font-size: 76px;
+}
+.mainButtons{
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+.mainButtons button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 12px;
+    color: purple;
+}
+.mainButtons button:nth-child(2){
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    margin-left: 20px;
+}
+.mainButtons button:hover{
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    border: 1px solid purple;
+}
+.socialIcons{
+    height: 10%;
+    width: 50%;
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+}
+.socialicons img{
+    height: 50px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+.siteImageHolder{
+    height: 100%;
+    width: 50%;
+ 
+}
+.siteImageHolder img{
+    height: 80%;
+    position: absolute;
+
+    bottom: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.aboutOurFabrics{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.aboutHolderShadow{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background: #eee;
+    box-shadow: 0 8px 8px -4px silver;
+}
+.imageHolder{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageHolder img{
+    height: 80%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border-radius: 12px;
+}
+.aboutBrand{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.aboutBrand h1{
+    color: purple;
+}
+.aboutBrand p{
+    width: 80%;
+    text-align: justify;
+}
+.dressHolder{
+    width: 80%;
+    height: 20%;
+     display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three items in a row */
+ 
+}
+.dressHolder h1{
+    font-size: 12px;
+    color: black;
+}
+.grid-item{
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgba(238, 236, 236, 0.452);
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.aboutHolderShadow button{
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    background-color: purple;
+    color: white;
+    box-shadow: 0px 5px 12px silver;
+    cursor: pointer;
+}
+.aboutHolderShadow button:hover{
+    background-color: white;
+    border: 2px solid purple;
+    color: purple;
+}
+.latestDesinsSection{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.latestDesinsSection span{
+    color: purple;
+}
+.latestDesinsSection img{
+    height: 50%;
+    width: 60%;
+}
+.latestDesinsSection p{
+    text-align: center;
+    width: 80%;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.createWebSite{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.createWebSite h1{
+    color: purple;
+    font-size: 16px;
+
+}
+.createWebSite button{
+    width: 150px;
+    height: 40px;
+  
+    background-color: transparent;
+    border: 2px solid purple;
+    border-radius: 12px;
+    color: purple;
+    margin-left: 20px;
+}
+.createWebSite button:hover{
+
+  
+    background-color: purple;
+
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+
+}
+.placeOrder{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+.orderImageHolder{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orderImageHolder img{
+    height: 70%;
+    
+}
+.placeOrderForm{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.placeOrderForm h1{
+    color: purple;
+}
+.orderDetails{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        background: #eee;
+    box-shadow: 0 8px 8px -4px silver;
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 12px;
+}
+.orderDetails input{
+    height: 40px;
+    padding-left: 10px;
+    width: 350px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px rgba(192, 192, 192, 0.349);
+    border: 2px solid silver;
+    border-radius: 8px;
+    outline: none;
+}
+
+.select{
+    height: 40px;
+    padding-left: 10px;
+    width: 350px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px rgba(192, 192, 192, 0.349);
+    border: 2px solid silver;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+.orderDetails textarea{
+
+    padding-left: 10px;
+    width: 350px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px rgba(192, 192, 192, 0.349);
+    border: 2px solid silver;
+    border-radius: 8px;
+    outline: none;
+}
+.submitted{
+  width: 150px;
+    height: 40px;
+  
+    background-color: purple;
+    border: 2px solid purple;
+    border-radius: 12px;
+    color: white;
+
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+    background-color: purple;
+}
+.sub{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subHolder{
+    height: 70%;
+    width: 50%;
+    background-color: purple;
+    border: 2px solid rgb(179, 17, 179);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.subHolder input{
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.subHolder input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+
+}
+.subHolder button{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(179, 17, 179);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.linksHolder{
+    width: 80%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid white;
+}
+.CompanyLogo{
+    height: 100%;
+    width: 50%;
+
+}
+.CompanyLogo h1{
+    margin-top: 10px;
+    color: white;
+}
+.theLinksHolder{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    text-decoration: none;
+    color: silver;
+    margin-top: 10px;
+}
+.links p{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.copyRight{
+    height: 20%;
+    width: 80%;
+    color: silver;
+    display: flex;
+    align-items: center;
+}
+.aboutBrand button{
+        border-style: none;
+}
+.contactDetailsSectionP{
+    width: 100%;
+    height: auto;
+}
+
+.contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-details div {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+#map{
+    height: 50vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

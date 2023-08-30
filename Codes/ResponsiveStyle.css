@@ -1,0 +1,253 @@
+
+
+@media (max-width:414px){
+    .navBar{
+        height: 5vh;
+    }
+    .navBar h1{
+        font-size: 18px;
+    }
+    .buttonHolder{
+        display: none;
+    }
+    .latestDesignButtonHolder{
+        display: none;
+    }
+    .logoHolder{
+        width: 100%;
+    }
+    .contaner{
+        height: 100%;
+    }
+    .mainContent{
+        width: 100%;
+    }
+    .heroContainer{
+        height: 80vh;
+    }
+    .siteImageHolder{
+        display: none;
+    }
+    .imageHolder{
+        display: none;
+    }
+    .aboutHolderShadow{
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+    }
+    .aboutBrand{
+        width: 100%;
+        height: 70vh;
+    }
+    .aboutOurFabrics{
+        height: 70vh;
+    }
+    .aboutBrand p{
+        width: 100%;
+    }
+    .placeOrder{
+        flex-direction: column;
+    }
+    .orderImageHolder{
+        width: 100%;
+        height: 50%;
+    }
+    .navBar{
+        position: absolute;
+    }
+    .placeOrderForm{
+        width: 100%;
+        height: 70%;
+    }
+    .footer{
+        height: 100vh;
+    }
+    .linksHolder{
+        height: 80%;
+        flex-direction: column;
+    }
+    .CompanyLogo{
+        height: 20%;
+        width: 100%;
+    }
+    .theLinksHolder{
+        flex-direction: column;
+    }
+    .links{
+        height: 20%;
+        width: 100%;
+        font-size: 18px;
+    }
+    .copyRight{
+        height: 10%;
+    }
+    .sub{
+        height: 10%;
+       
+    }
+    .subHolder{
+        width: 90%;
+    }
+    .orderDetails{
+        width: 100%;
+        height: 100%;
+        border: none;
+        box-shadow: none;
+    }
+     .latestDesinsSection{
+        text-align: center;
+     }
+    .latestDesinsSection img{
+        width: 100%;
+    }
+    .orderImageHolder{
+        height: 30%;
+    }
+    .newProducts{
+        height: 50vh;
+    }
+    .newProducts h1{
+        font-size: 16px;
+    }
+    
+    .newProducts p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .productHolder{
+            grid-template-columns: repeat(1, 1fr);
+    }
+    .productsCard{
+
+    width: 300px;
+    height: 300px;
+
+}
+}
+
+@media (min-width:420px) and (max-width:1010px){
+  .navBar{
+        height: 10vh;
+    }
+    .navBar h1{
+        font-size: 18px;
+    }
+    .buttonHolder{
+        width: 80%;
+    }
+    .latestDesignButtonHolder{
+        display: none;
+    }
+    .logoHolder{
+        width: 20%;
+    }
+    .contaner{
+        height: 100%;
+    }
+    .mainContent{
+        width: 100%;
+    }
+    .heroContainer{
+        height: 80vh;
+    }
+    .siteImageHolder{
+        display: none;
+    }
+    .imageHolder{
+        display: none;
+    }
+    .aboutHolderShadow{
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+    }
+    .aboutBrand{
+        width: 100%;
+        height: 80vh;
+        padding-left: 10px;
+    }
+    .aboutOurFabrics{
+        height: 70vh;
+    }
+    .aboutBrand p{
+        width: 100%;
+    }
+    .placeOrder{
+        flex-direction: column;
+    }
+    .orderImageHolder{
+        width: 100%;
+        height: 30%;
+    }
+    .navBar{
+        position: absolute;
+    }
+    .placeOrderForm{
+        width: 100%;
+        height: 70%;
+    }
+    .footer{
+        height: 120vh;
+    }
+ .placeOrder{
+    height: 120vh;
+ }
+    .linksHolder{
+        height: 80%;
+        flex-direction: column;
+    }
+    .CompanyLogo{
+        height: 20%;
+        width: 100%;
+    }
+    .aboutBrand button{
+        border-style: none;
+        
+        height: 30px;
+    }
+    .aboutBrand p{
+       width: 95%;
+    }
+    .theLinksHolder{
+        flex-direction: column;
+    }
+    .links{
+        height: 25%;
+        width: 100%;
+        font-size: 18px;
+       
+        font-size: 16px;
+    }
+    .copyRight{
+        height: 10%;
+    }
+    .sub{
+        height: 10%;
+       
+    }
+    .subHolder{
+        width: 90%;
+    }
+    .orderDetails{
+        width: 100%;
+        height: 100%;
+        border: none;
+        box-shadow: none;
+    }
+     .latestDesinsSection{
+        text-align: center;
+     }
+    .latestDesinsSection img{
+        width: 100%;
+    }
+    .productHolder{
+            grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:1920px){
+        .productHolder{
+            grid-template-columns: repeat(4, 1fr);
+    }
+}
